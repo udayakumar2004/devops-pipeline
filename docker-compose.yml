@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  react-app:
+    image: react-app:test
+    container_name: react-app
+    ports:
+      - "80:80"
+    restart: unless-stopped

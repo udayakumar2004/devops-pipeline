@@ -1,0 +1,16 @@
+node_modules
+.git
+.gitignore
+.env*
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+coverage
+.nyc_output
+.cache
+*.md
+Dockerfile*
+docker-compose*
+.dockerignore
+Jenkinsfile
+*.sh
